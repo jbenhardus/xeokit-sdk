@@ -17,6 +17,8 @@ export declare type TreeViewPluginConfiguration = {
   sortNodes?: boolean;
   /** When true, will not contain nodes that don't have content in the {@link Scene}. These are nodes whose {@link MetaObject}s don't have {@link Entity}s. */
   pruneEmptyNodes?: boolean;
+  /** When true, will show indeterminate state for checkboxes when some but not all child nodes are checked */
+  showIndeterminate?: boolean;
   /** Optional {@link ITreeViewRenderService} to use. Defaults to the {@link TreeViewPlugin}'s default {@link RenderService}. */
   renderService?: ITreeViewRenderService;
 };
